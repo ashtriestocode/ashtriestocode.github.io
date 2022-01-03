@@ -763,7 +763,19 @@ body {
 	font-size: 16px;
 }
 
-.optionsContainer {
+.optionsContainer4 {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	border: 2px solid #FFD700;
+	overflow: hidden;
+	width: 360px;
+	margin: auto;
+	cursor: pointer;
+	font-size: x-large;
+}
+
+
+.optionsContainer3 {
 	display: grid;
 	grid-template-columns: 1fr;
 	border: 2px solid #FFD700;
@@ -774,7 +786,7 @@ body {
 	font-size: x-large;
 }
 
-	.optionsContainer div {
+	.optionsContainer4 div {
 		height: 120px;
 		display: flex;
 		justify-content: center;
@@ -782,18 +794,25 @@ body {
 		text-align: center;
 	}
 
-		.optionsContainer div:hover {
+		.optionsContainer4 div:hover {
 			filter: brightness(80%);
 			transition: 0.2s;
 		}
 
-.days {
-	background: transparent;
-	width: 100%;
-	border-bottom: 2px solid #FFD700;
+.optionsContainer3 div {
+	height: 120px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
 }
 
-.minutes {
+	.optionsContainer3 div:hover {
+		filter: brightness(80%);
+		transition: 0.2s;
+	}
+
+.minutes3 {
 	background-color:transparent;
 	width: 99%;
 	border-left: 2px solid #FFD700;
@@ -801,7 +820,7 @@ body {
 	border-bottom: 2px solid #FFD700;
 }
 
-.hours {
+.hours3 {
 	background: transparent;
 	width: 99%;
 	border-left: 2px solid #FFD700;
@@ -809,12 +828,37 @@ body {
 	border-bottom: 2px solid #FFD700;
 }
 
-.seconds {
+.seconds3 {
 	background-color: transparent;
 	width: 99%;
 	border-left: 2px solid #FFD700;
 	border-right: 2px solid #FFD700;
 	border-bottom: 2px solid #FFD700;
+}
+
+
+.days4 {
+	background: transparent;
+	width: 100%;
+	border-bottom: 2px solid #FFD700;
+}
+
+.hours4 {
+	background: transparent;
+	width: 100%;
+	border-right: 2px solid #FFD700;
+}
+
+.minutes4 {
+	background-color: transparent;
+	width: 100%;
+	border-left: 2px solid #FFD700;
+	border-bottom: 2px solid #FFD700;
+}
+
+.seconds4 {
+	background-color: transparent;
+	width: 100%;
 }
 
 .date {
