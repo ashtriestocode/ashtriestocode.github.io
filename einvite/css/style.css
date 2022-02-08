@@ -135,7 +135,8 @@ p {
 
 .buttonsWrapper,
 .venueButtons {
-	font-size: 25px;
+	font-size: 36px;
+	font-weight:bold;
 }
 
 .venueButtons {
